@@ -1,0 +1,31 @@
+Enunciado del proyecto: 
+
+Migración tecnológica de una web. 
+Como Desarrollador@ Front-end deberás migrar una página web estática escrita en HTML y CSS a una dinámica con REACT.
+
+Contexto del proyecto
+
+Objetivo profesional:
+
+Como desarrollad@r de una web, en el entorno profesional, es común que te enfrentes a situaciones en las que debas migrar aplicaciones a versiones superiores de la tecnología en la que se hizo o incluso cambiar la tecnología en la que está hecha.
+
+Contexto:
+
+¡Gracias por acompañarnos siempre en nuestros retos! ¿Recuerdas el proyecto de la página web de SYNC? Este proyecto ha estado necesitando mucho mantenimiento post-producción ya que el cliente cada vez quiere añadir más cosas y el enfoque que aplicamos cuándo comenzamos el proyecto no fue el mejor técnicamente porque no garantiza la estabilidad a medida que crece. Hemos logrado venderle al cliente la propuesta de optimización del código del código actual de su web, pues está compuesto por varias páginas estáticas escritas en HTML y CSS. El objetivo del proyecto es migrar estas páginas a una aplicación web dinámica utilizando React js. Cómo fuiste tú quien hizo el desarrollo, estarás esta semana trabajando nuevamente para este proyecto, utilizando los mismos recursos proporcionados por el cliente.
+
+¡Esto nos ayudará con el rendimiento y escalabilidad de la web!
+
+
+Resolución del proyecto: 
+
+Para llevarlo a cabo hemos usado el proyecto P2_Femcoders_Norte como base y hemos intentado hacer la migración a React. 
+Debido a la inexperiencia, no he conseguido instalar el Router-Dom de React de forma satisfactoria, ya que daba muchos errores de
+configuración y no sabía resolverlos. Debido a esta circunstancia, me decidí a hacer una página web que se mostrara haciendo scroll, en 
+vez de tener varias vistas. Aún no está terminada.
+
+Para que fuera correcta, debería haber instalado el Router Dom y haber dividido el código en páginas dentro de la "carpeta pages". Ademas,
+hay átomos que en realidad son moléculas. Las imágenes no es necesario crearlas como un átomo. Los átomos no son reutilizables porque no 
+sabía como poner las clases y por eso, por ejemplo, hay más de dos botones. Los nombres de las carpetas han de renombrarse usando "head, main y footer".
+Y bastantes cosas más que aún no he aprendido a hacer aún.
+
+La única funcionalidad de la página es que al hacer click en el botón "download" te redirige a la landing page de Factoria 5.
