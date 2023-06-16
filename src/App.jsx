@@ -139,6 +139,18 @@ function App() {
     <PItalicAtom p_text={'Never dreamed I could learn so fast how to focus on my personal goals and improve my life to levels thought posible.'}></PItalicAtom>
     <PStrongAtom p_strong_text={'Jay Frisco - Marketer'}></PStrongAtom>
     <ImgBannerAtom banner_page= {banner_pageData}></ImgBannerAtom>
+    <ImgStarsAtom img_star={'src/assets/imagenes comprimidas/five_stars_720.png'}></ImgStarsAtom>
+    <HrAtom></HrAtom>
+    <PItalicAtom p_text={'I got so much value from using Sync in my daily life for which i am very grateful and would recommend it to everybody'}></PItalicAtom>
+    <PStrongAtom p_strong_text={'Frank Gibson - Manager'}></PStrongAtom>
+    <ImgStarsAtom img_star={'src/assets/imagenes comprimidas/five_stars_720.png'}></ImgStarsAtom>
+    <HrAtom></HrAtom>
+    <PItalicAtom p_text={'If you have goals but configure out a way to keep focused then you should definitely give Sync a try and see the results.'}></PItalicAtom>
+    <PStrongAtom p_strong_text={'Rita Longmile - Designer'}></PStrongAtom>
+    <ImgStarsAtom img_star={'src/assets/imagenes comprimidas/five_stars_720.png'}></ImgStarsAtom>
+    <HrAtom></HrAtom>
+    <PItalicAtom p_text={'I have been looking for a great organizar app for such a long time but now I am really happy that I found Sync. It is been working great.'}></PItalicAtom>
+    <PStrongAtom p_strong_text={'Jones Smith - Developer'}></PStrongAtom>
     </>
   )
 }
