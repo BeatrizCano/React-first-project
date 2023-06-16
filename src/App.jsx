@@ -22,7 +22,7 @@ import ImgStarsAtom from './component/atoms/imgAtoms/ImgStarsAtom';
 import HrAtom from './component/atoms/textAtoms/HrAtom';
 import PItalicAtom from './component/atoms/textAtoms/PItalicAtom';
 import PStrongAtom from './component/atoms/textAtoms/PStrongAtom';
-
+import ImgBannerAtom from './component/atoms/imgAtoms/ImageBannerAtom';
 
 function App() {
     const logoData = {
@@ -94,6 +94,14 @@ function App() {
       link_button1: '#',
     }
 
+    const banner_pageData = {
+      img1: 'src/assets/imagenes comprimidas/customer-logo-1.png', 
+      img2: 'src/assets/imagenes comprimidas/customer-logo-2.png', 
+      img3: 'src/assets/imagenes comprimidas/customer-logo-3.png', 
+      img4: 'src/assets/imagenes comprimidas/customer-logo-4.png', 
+      img5: 'src/assets/imagenes comprimidas/customer-logo-5.png',
+    }
+
 
   return (
     <>
@@ -130,7 +138,7 @@ function App() {
     <HrAtom></HrAtom>
     <PItalicAtom p_text={'Never dreamed I could learn so fast how to focus on my personal goals and improve my life to levels thought posible.'}></PItalicAtom>
     <PStrongAtom p_strong_text={'Jay Frisco - Marketer'}></PStrongAtom>
-    
+    <ImgBannerAtom banner_page= {banner_pageData}></ImgBannerAtom>
     </>
   )
 }
